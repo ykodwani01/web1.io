@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <!--below keyword is used for SEO-->
+    <meta name=""keyword" content="instagram">
+    <link rel="stylesheet" href="file.css">
+    <title>Document</title>
+
+    <style>
+      p{
+        width: 50%;
+        float: right;
+        color: rgb(0, 0, 0);
+        background-color: rgb(190, 84, 84) ;
+      }
+/* class selector */
+      .redgb{
+
+        padding-left: 8px;
+        padding-top: 14px;
+        margin-top: 15px;
+      }
+
+      .container{
+        margin-left: 28px;
+        padding-top: 15px;
+        padding-right: 30px;
+        padding-left: 26px;
+
+      }
+      /* id selector */
+      #mainbox{
+
+      }
+
+      #lec17{
+
+        background-color: black;
+        font-size: xx-large;
+          color: rgb(157, 255, 0) ;
+          line-height: 19px;
+          border-color: red;
+          border-radius: 10px;
+          border-style: solid;
+          
+      }
+
+
+      #btn{
+        background-color: blue;
+        color: white;
+
+      }
+      #btn:hover{
+        color: green;
+        background:yellow;
+        cursor: pointer;
+        width: 20%;
+        height: 25px;
+      }
+
+/* relative: relative to position of its parent */
+
+      .box{
+
+
+      }
+
+
+      .container{
+
+
+      }
+
+      #box1{
+
+
+      }
+
+
+    </style>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Salvador_Dal%C3%AD_1939.jpg" alt="" height="100px", width="100px">
+
+</head>
+<body>
+  <!--headings h1 should not be  used to write content it will lower seo-->
+  <!--strong used for bold--> 
+  <ul>
+    <li>this is first line</li>
+    <li>this is second line</li>
+    
+<ul>
+  <li>hello world</li>
+  </ul><hr>
+<!--span used to divide a line in different  parts-->
+  <!--li and div in block and em and strong are inline-->
+
+  <!--ids and classes in html-->
+<!--id is the name given to only one div , no other of same id can be made a div-->
+<!--class used to apply css to each id-->
+<!-- many classes can be given to one element -->
+    <div id ="mainbox" class="redbg otherclass anotherclass "> 
+        this is main box
+    </div>
+
+<span class="redgb"></span>
+<!-- the above can be made by directlyusing emmet like element.class -->
+
+<p>this is extra        space</p>
+<!-- this will not work but-->
+<p style="color: blue;">this is extra   &nbsp; &nbsp;     space</p>
+
+<!-- to write a tag in website as a word use html entites -->
+
+<p>I have written &lt;p&gt; &#8203;</p>
+
+<!-- semantic tag -->
+
+<h3>semantic elements</h3>
+<div id="lec17" >What is this written!</div>
+
+<div class="container">
+
+  <div id="fruits">
+    <p id="fruitpara" class="item">fruits</p>
+  </div>
+
+</div>
+
+<!-- buttons in css -->
+<div id="btn">
+Click here
+</div>
+
+<hr>
+<br><div class="out0">
+
+Now create a table with 3*3 \
+<div class="box" id="box1">lorem upsum asdjfkajsd;fjowhefkanvcaoihnfasndvklajskjad;lkfjasdlkjf;lsdgiowerfkjasdguerjndsjkasdlfkfnahvarngoppsoimeria adilmehothasogthodieakaakhalidssefasg;lkajsjagahsthisgahgayti</div>
+
+<div class="box" id="box2">lorem upsum asdjfkajsd;fjowhefkanvcaoihnfasndvklajskjad;lkfjasdlkjf;lsdgiowerfkjasdguerjndsjkasdlfkfnahvarngoppsoimeria adilmehothasogthodieakaakhalidssefasg;lkajsjagahsthisgahgayti</div>
+
+<div class="box" id="box3">lorem upsum asdjfkajsd;fjowhefkanvcaoihnfasndvklajskjad;lkfjasdlkjf;lsdgiowerfkjasdguerjndsjkasdlfkfnahvarngoppsoimeria adilmehothasogthodieakaakhalidssefasg;lkajsjagahsthisgahgayti</div>
+
+</div>
+</body>
+</html>
